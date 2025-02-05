@@ -1,10 +1,10 @@
 import type { Items } from '../../common/types/types.ts'
 
 const initialState = {
-  decks: [] as Items[], // todo: add type
+  decks: [] as Items[],
   searchParams: {
     name: '',
-  },
+  }
 }
 
 export type DecksState = typeof initialState

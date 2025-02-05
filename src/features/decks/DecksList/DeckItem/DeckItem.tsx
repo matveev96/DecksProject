@@ -2,7 +2,7 @@ import s from './DeckItem.module.css'
 import type { Items } from '../../../../common/types/types.ts'
 
 type DeckProps = {
-  deck: Items // todo: fix
+  deck: Items
 }
 
 const TEST_ACC_NAME = 'kukus'
