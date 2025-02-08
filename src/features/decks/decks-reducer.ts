@@ -44,4 +44,4 @@ export const addDeckAC = (payload: Items) => {
 type setDeckAT = ReturnType<typeof setDeckAC>
 type addDeckAT = ReturnType<typeof addDeckAC>
 
-type DecksActions = setDeckAT | addDeckAT
+export type DecksActions = setDeckAT | addDeckAT
